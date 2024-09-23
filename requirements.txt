@@ -1,0 +1,6 @@
+minio==7.1.13
+pandas==1.5.3
+astro-sdk-python==1.5.0
+altair==4.0.0
+requests
+
