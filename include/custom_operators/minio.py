@@ -5,7 +5,7 @@ from minio import Minio
 from airflow.utils.decorators import apply_defaults
 import os
 import io
-from include.global_variables import global_variables as gv
+import include.global_variables as gv
 import json
 from minio.commonconfig import CopySource
 from minio.deleteobjects import DeleteObject

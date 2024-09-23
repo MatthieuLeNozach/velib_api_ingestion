@@ -1,6 +1,6 @@
 from airflow.decorators import task_group, task
 from include.custom_operators.minio import MinIOHook, MinIOUploadOperator
-import include.global_variables.global_variables as gv
+import include.global_variables as gv
 import logging
 import json
 
